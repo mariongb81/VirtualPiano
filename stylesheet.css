@@ -1,0 +1,32 @@
+body {
+    margin: 10%;
+    background-color: beige;
+}
+
+.container {
+    display: inline-block;
+    background-color: white;
+    text-align: center;
+    margin: 10%;
+}
+
+kbd {
+    display: inline-block;
+    border: black solid;
+    width: 75px;
+    height: 215px;
+    margin: -3px;
+}
+.black-keys kbd{
+    display: inline-block;
+    background-color: black;
+    color: white;
+    position: relative;
+    height: 107px;
+    width: 37px;
+    bottom: 215px;
+
+}
+.white-keys kbd{
+    display: inline-block;
+}
